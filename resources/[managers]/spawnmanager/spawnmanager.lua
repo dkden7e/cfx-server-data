@@ -311,7 +311,7 @@ function spawnPlayer(spawnIdx, cb)
             Citizen.Wait(0)
         end
 
-        ShutdownLoadingScreen()
+        --ShutdownLoadingScreen()
 
         if IsScreenFadedOut() then
             DoScreenFadeIn(500)
